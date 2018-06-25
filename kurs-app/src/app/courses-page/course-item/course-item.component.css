@@ -1,0 +1,26 @@
+.d-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+.container-width {
+  width: 100%;
+  background-color: #f5f5f5;
+  align-items: center;
+  margin: 1em 0;
+  border: 2px solid #f1f1f1 ;
+}
+
+.container > p {
+  margin-top: 0.8em;
+}
+
+.course-item-content1 {
+ flex-shrink: 2;
+}
+
+.btn-edit, .btn-delete {
+  width: 100px;
+  margin: 0.3em;
+  float: right;
+}
